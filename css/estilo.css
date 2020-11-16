@@ -1,0 +1,191 @@
+
+* {
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box; 
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+body{
+	background: #b7b7b7;	
+	min-width: 350px;		
+}
+
+header {
+	background: #474f47;			
+	padding: 10px;
+	width: 100%;
+}
+
+	.logoImagen{
+		width: 100px;
+		height: 50px;
+	}
+
+	.elementosMenu a{
+		color: white;	
+		padding: 20px;
+		text-decoration: none;	
+	}
+
+	.fondoImagen{
+		padding: 30px;
+		background: #226c6c;
+	}
+
+		.menuImagen{
+			border: 5px solid black;
+			width: 300px;
+		}
+
+
+.contenidoPrincipal{
+	padding:20px;
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+	.contenidoPrincipal article{
+		background: #fff;
+		margin: 20px;
+		padding: 20px;
+		border: 2px solid black;
+	}
+
+		.contenidoPrincipal article p {
+			text-indent: 30px;
+			line-height: 35px;
+			font-size: 20px;
+		}
+
+		.contenidoPrincipal article h2{
+			text-align: center;
+			padding-bottom: 30px;
+			font-size: 40px;
+		}
+		
+		.contenidoPrincipal article .articuloImagen{
+			width: 200px;
+			height: 200px;
+			padding-top: 20px;
+		}
+
+
+footer{
+	background: #474f47;
+	width: 100%;
+	padding:20px;
+	position: fixed;
+	bottom: 0;
+	min-width: 360px;
+	
+}
+
+	footer .links a {		 
+		color: white;
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+
+/* LOGIN */
+
+	#bodyLogin, #htmlLogin{
+		height: 100%;
+	}
+	
+	#bodyLogin{
+		background: #c6e6c3;
+		display: flex;
+		margin: auto;
+	}
+
+	#formLogin{
+		background: white;
+		border-radius: 10px;
+		padding: 50px;
+		text-align: center;
+		box-shadow: 5px 5px 30px #888;
+		margin: auto;
+	}
+
+		#formLogin form{
+			margin: 35px 0;
+		}
+
+		#formLogin input, #formLogin .button{
+			padding: 10px 40px;
+			margin: 5px;
+			color: #21b714;
+			font-weight: bold;
+			font-size: 18px;
+			text-align: center;	
+			background: #e0eee291;
+			border: none;
+		}
+
+		#formLogin .button{
+			color: white;
+			font-weight: bold;
+			text-align: center;	
+			background: #00370891;
+			border-radius: 5px;;
+			box-shadow: 2px 2px 10px #888;
+			margin-top: 25px;
+		}
+
+
+		#formLogin a{
+			text-decoration: none;
+			color: #00370891;
+		}
+
+
+
+/* TABLAS */
+
+	table{
+		background: #226c6c;;
+		padding: 10px;
+		width: 450px;
+		border: 3px solid black;
+		margin: 0 auto;
+	}
+
+		table th{
+			color: white;
+			padding: 10px;
+		}
+
+		table td{
+			padding: 10px;
+			margin: 10px;
+			background: #ffff9c;
+		}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 550px) {
+
+	#formLogin{
+		width: 80%;
+	}		
+
+	#formLogin input{
+		width: 100%;
+		font-size: 15px;
+	}
+}
+
+
+@media (max-width: 450px) {
+	
+	table{
+		width: 100%;
+		font-size: 12px;
+	}
+
+}
